@@ -9,12 +9,11 @@ make
 ./Exercici-3
 ```
 Implementation
-A program implemented with OpenGL. The main code is in the MyGLWidget.cpp and LL2GLWidget.cpp where you can find the interactions with the models that exists. In addition of the differents funcionalities that have the keys:
-
-'key_left': move left.
-'key_right': move right.
-'key_up': move up.
-'key_down': move down.
-'r': reset the game.
-'t': active a timer that moves the snake to the direction it's watching.
-'c': alterate between a 3D and 2D view.
+A program implemented with OpenGL and QT Designer. For this program I only need to implement a new class for the ProgressBar to implement 5 new funcions:
+```
+ini(): initialitzate the sinus function and the parameters.
+amplitud(int a): edits the sinus function having in mind the new value for the amplitude.
+fase(int f): edits the sinus function having in mind the new value for the phase.
+time(): starts or stop the timer.
+animar(): do the animation every time the timer arrive to the value 0.
+```
